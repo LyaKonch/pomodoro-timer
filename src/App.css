@@ -1,0 +1,52 @@
+
+.App{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100%;
+}
+.App__title-block{
+   position: relative;
+   top:100px;
+   width: 20vw;
+   z-index: -1;
+}
+.App__title-block img{
+   object-fit: cover;
+   max-width: 100%;
+}
+.App__interactive{
+   display: flex;
+   justify-content: center;
+   gap:10vw;
+   margin-bottom: 30px;
+   padding:1rem;
+}
+.App__interactive-block{
+   font-size: 1.5rem;
+}
+.interactive-block__controls{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   font-size: 1.7rem;
+}
+.App__display{
+   width:300px;
+   text-align: center;
+   border-radius: 30px;
+   padding: 15px 0;
+   border: 3px solid black;
+   margin-bottom: 1rem;
+}
+.App__display p{
+   text-transform: uppercase;
+   letter-spacing: 0.05rem;
+   font-weight: 600;
+   font-size: 1.5rem;
+}
+.App__controls{
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+}
